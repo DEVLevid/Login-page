@@ -1,3 +1,3 @@
 # Login-page with HTML and CSS.
 
-![image](https://user-images.githubusercontent.com/120687641/231305301-4283ebe8-87ef-425d-9d1a-76c9332ad736.png)
+![image](https://user-images.githubusercontent.com/120687641/231508064-f0a5fef8-9524-47be-a561-e48f26d3df06.png)
