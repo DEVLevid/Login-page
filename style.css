@@ -8,12 +8,49 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
+    background: #222831;
+    min-width: 100vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 7rem;
+    gap: 80rem;
+}
+
+.home-icon{
+    width: 12px;
+}
+
+.home{
+    cursor: pointer;
+    padding: 2rem;
+}
+
+.home .home-img, .choice-img{
+    padding: 0.5rem;
+}
+
+
+.logon-btn{
+    width: 120px;
+    padding: 1rem;
+    margin: 4rem;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-weight: 800;
+    color: #000;
+    background: #77ffc0;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #00000056;
 }
 
 .container{
     width: 100%;
     min-height: 100vh;
-    background: #222831;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -75,7 +112,7 @@ body{
 }
 
 .text-field input{
-    width: 100%;
+    width: 80%;
     border: none;
     border-radius: 10px;
     padding: 15px;
@@ -115,7 +152,16 @@ body{
 
 h1{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25pt;
+
+}
+
+span{
+    color: white;
+}
+
+.login-left h1{
+    font-size: 40pt;
 }
 
 .box-login{
@@ -128,7 +174,8 @@ h1{
     
 }
 
-@media only screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
+    
     .card-login{
         width: 85%;
     }
@@ -153,6 +200,11 @@ h1{
 
 
 @media only screen and (max-width: 600px){
+    
+    .header{
+        display: none;
+    }
+
     .container{
         flex-direction: column;
     }

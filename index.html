@@ -6,30 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="favicon/favicon.ico">
     <title>Login Page</title>
 </head>
 
 <section>
-    <div class="container">
 
+    <div class="header">
+        <div class="home">
+            <img class="choice-img" src="images/icons8-cardápio.svg" alt="choice">
+            <img class="home-img" src="images/icons8-casa.svg" alt="home">
+        </div>
+        <div class="logon">
+            <button class="logon-btn">Log on</button>
+        </div>
+    </div>
+
+    <div class="container">
         <div class="login-left">
-            <h1>Login and join our team.</h1>
-            <img class="left-login-img" src="office-work-animate.svg" alt="office-work-animate">
+            <h1><span>Login and join </span><br>our team.</h1>
+            <img class="left-login-img" src="images/office-work-animate.svg" alt="office-work-animate">
         </div>
         <div class="login-rigth">
             <div class="card-login">
                 <h1>Login</h1>
                 <div class="box-login">
                     <h2>User</h2>
-                <div class="text-field">
-                    <input type="text" name="usuario" placeholder="user">
-                </div>
-                <h2>Password</h2>
-                <div class="text-field">
-                    <input class="password" type="password" name="password" placeholder="password">
-                    <img class="eyeClosed" src="hide.png" alt="view">
-                </div>
-                <button class="btn-login">Login</button>
+                    <div class="text-field">
+                        <input type="text" name="usuario" placeholder="user">
+                    </div>
+                    <h2>Password</h2>
+                    <div class="text-field">
+                        <input class="password" type="password" name="password" placeholder="password">
+                        <img class="eyeClosed" src="images/hide.png" alt="view">
+                    </div>
+                    <button class="btn-login">Login</button>
                 </div>
             </div>
         </div>
