@@ -16,7 +16,7 @@ body{
     height: 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: left;
     background-color: #3c4757;
 }
 
@@ -31,22 +31,6 @@ body{
 
 .home .home-img, .choice-img{
     padding: 0.5rem;
-}
-
-
-.logon-btn{
-    width: 120px;
-    padding: 1rem;
-    margin: 4rem;
-    border: none;
-    text-transform: uppercase;
-    border-radius: 8px;
-    font-weight: 800;
-    letter-spacing: 3px;
-    color: #000;
-    background: #77ffc0;
-    cursor: pointer;
-    box-shadow: 0px 10px 40px #00000056;
 }
 
 .container{
